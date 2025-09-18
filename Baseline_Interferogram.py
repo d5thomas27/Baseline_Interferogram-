@@ -2,7 +2,7 @@ import os
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
-print("hello")
+
 img_dir = 
 out_dir = 
 os.makedirs(out_dir, exist_ok=True) # create output folder if doesn't already exist
