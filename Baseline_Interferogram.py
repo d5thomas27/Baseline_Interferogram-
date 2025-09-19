@@ -72,6 +72,7 @@ for filename in os.listdir(img_dir):
 
     # plot and FFT each normalized image
     img = plt.imread(output_path)
+    #print(img) 
     fft_result = np.fft.fft2(img)
     fft_shifted = np.fft.fftshift(fft_result)
     log_mag = np.log(1 + np.abs(fft_shifted))
